@@ -3,5 +3,22 @@
     float: left;
     height: 100%;
     width: 100%;
-    background-color: #3f51b5;
+    background-color: #d4d4d4;
+}
+
+.login-form{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    
+}
+
+.login-form .form-control {
+    border: 1px solid #5275de;
+    border-left: 5px solid #5275de;
+}
+.login-form  .form-control:focus{
+    box-shadow: none;
 }
